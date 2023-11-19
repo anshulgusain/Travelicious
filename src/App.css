@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* <--------------------- Payment  */
+
+
+.container h2{
+  color:white;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button.next-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+/* PaymentForm.css */
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: rgba(68, 236, 1, 0.329) 0px 5px 15px;
+  background-image: url('./payment/discover[1].png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  width: 95%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button.next-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.payment-method-select {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.payment-form {
+  display: flex;
+  margin: 0px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('./payment/discover[1].png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+.container input[type="text"],
+.container select {
+  width: 85%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.container button {
+  
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.order-success {
+  margin-top: 20px;
+  text-align: center;
+  color: aliceblue;
+}
+
+#Total_P, #Befr_Tax {
+  margin-top: 20px;
+  display: flex;
+  color: rgba(68, 236, 1, 0.329);
+  justify-content: space-between;
+}
+
+#Befr_Tax {
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
