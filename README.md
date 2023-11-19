@@ -36,6 +36,4 @@ Welcome to Travelicious, a collaborative travel app developed by a team of four 
 ## Setup and Installation
 
 1. **Clone the repository:**
-
-   ```bash
   https://github.com/anshulgusain/Travelicious-App.git
